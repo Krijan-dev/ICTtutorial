@@ -1,0 +1,87 @@
+/* reset*/
+* {
+	margin:0; padding:0;
+}
+ 
+body {
+	font:100% normal Arial, Helvetica, sans-serif; background:#161712;
+}
+
+form, input, select, textarea {
+	margin:0; padding:0; color:#ffffff;
+}
+
+form {	/* the area and style of the form "box" */ 
+	margin: 0 auto;
+	padding: 10px; 
+	width: 500px; 
+	background: #222222; 
+	position: relative; 
+	top: 50px;
+	border: 1px solid #262626;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px; 
+	border-radius: 20px;
+}
+
+form h1 {	/* the style for the header inside the form */ 
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase; 
+	padding: 5px 0 5px 5px;
+}
+
+form label {	/* the style for the labels */ 
+	width: 100%;
+	display: block; 
+	background: #1C1C1C;
+	border-top: 1px solid #262626; 
+	border-bottom: 1px solid #161712; 
+	padding: 10px 0 10px 0;
+}
+
+form  label p {	/* the style for the labels */ 
+	display: block;
+	color: #bbbbbb; 
+	font-size: 12px; 
+	float: left; 
+	width: 100px; 
+	text-align: right;
+	padding: 5px 20px 0 0;
+}
+
+
+form .input_text, .message { 
+	background: #262626;
+	border-bottom: 1px double #171717; 
+	border-top: 1px double #171717; 
+	border-left: 1px double #333333; 
+	border-right: 1px double #333333;
+}
+
+form .input_text {	/* the style for the input text */ 
+	padding: 10px 10px;
+	width: 200px;
+}
+
+form .message {	/* the style for messages */ 
+	padding: 7px 7px; 
+	width: 350px; 
+	overflow: hidden; 
+	height: 150px;
+}
+
+form .button {	/* the style for the buttons */ 
+	margin: 0 0 10px 0;
+	padding: 4px 7px; 
+	background: #CC0000; 
+	border: 0px; 
+	position: relative; 
+	top: 10px; 
+	left: 382px; 
+	width: 100px;
+	border-bottom: 1px double #660000; 
+	border-top: 1px double #660000; 
+	border-left: 1px double #FF0033; 
+	border-right: 1px double #FF0033;
+}
