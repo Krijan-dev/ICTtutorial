@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Form </title>
+		<link href="form.css" rel="stylesheet" />
+	</head>
+	<body>
+		<form action="submit.php" method="post">
+			<h1>Contact Form</h1>
+			<label>
+			<p>Full name</p>
+			<input type="text" class="input_text" name="name" id="name" required />
+			</label>
+			<label>
+			<p>Email</p>
+			<input type="email" class="input_text" name="email" id="email" required />
+			</label>
+			<label>
+			<p>Message</p>
+			<textarea class="message" name="feedback" id="feedback" required ></textarea> 
+			</label>
+			<label>
+			<input type="submit" class="button" value="Submit Form" />
+			</label>
+		</form>
+	</body>
+</html>
